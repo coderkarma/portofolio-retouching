@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="images/favicon.png">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css">
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <!-- Navbar goes here -->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#portfolio">Portoflio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#about">About </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#weather">Weather</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+
+    <!-- navbar section ends here  -->
+    <section id="portfolio" class="backgroundImage lg-">
+        <h1 class="text-center welcomeText">Hello, </h1>
+    </section>
+
+    <!--  Jumbotron begins here.-->
+    <section id='about' class="section-about container ">
+        <div class="jumbotron ">
+            <div class="text-center">
+                <img id="profileImg" src="images/profile.JPG" alt="profile-photo"
+                    class="rounded-circle bounce animated">
+                <!-- animation to the image and pargraph -->
+            </div>
+            <h4 class="display-4 text-center">About</h4>
+            <p class="lead fadeInRight animated">
+                Hi,I am Karma.I have always been fascinated by technology and computers.Fortunately got into
+                programming. Currently pursuing Web Development and Cybersecurity in Application. I am very
+                driven and passionate about technology. I love bringing innovation & creativity to the table. It
+                motivates and provides meaning to live life with a purpose to do something better for the community.
+            </p>
+        </div>
+
+    </section>
+    <!--   Carousal section begins here -->
+    <section id='projects' class="section-projects ">
+        <h3 class="display-4 text-center"> Projects</h3>
+        <div id="carouselIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselIndicators" data-slide-to="2"></li>
+            </ol>
+            <!--  Carousel inner  -->
+            <div class="carousel-inner d-flex justify-content-center ">
+                <!-- first item of carousel  -->
+                <div class="carousel-item active">
+                    <a href="https://omniifood.netlify.com/">
+                        <img src="carousel/food.png" class="d-block" alt="foodPhoto">
+                    </a>
+                </div>
+                <!-- second item of Carousel -->
+                <div class="carousel-item">
+                    <a href="https://game-colors.netlify.com">
+                        <img src="carousel/random.png" class="d-block" alt="randomColorGenerator">
+                    </a>
+                </div>
+                <!-- Third item of Carousel -->
+                <div class="carousel-item">
+                    <a href="https://setpriority.netlify.com">
+                        <img src="carousel/todo.png" class="d-block" alt="todoList">
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Testimonial Section -->
+    <section class="testimonial-section">
+        <h4 class="display-4 text-center">Testimonial</h4>
+        <div class="testimonial text-center">
+        </div>
+    </section>
+
+    <!-- Skill section-->
+    <section id="skills" class="skills-section">
+        <h3 class="text-center display-4">Skills</h3>
+        <p class="text-center"> Tools I've learned and constantly learning</p>
+
+
+        <!-- First row starts here -->
+        <div class="row">
+            <!-- First column starts here -->
+            <div class="col-sm col-md text-center">
+                <img src="skills/html.png" alt="htmlPhoto">
+            </div>
+            <!-- Ends first column -->
+
+            <!-- Second Column starts here -->
+            <div class="col-sm col-md text-center">
+                <img src="skills/react.png" alt="reactImage">
+            </div>
+            <!-- Second column ends here -->
+
+            <!-- Third Column starts here -->
+            <div class="col-sm col-md text-center">
+                <img src="skills/js.png" alt="reactImage">
+            </div>
+            <!-- third column ends here. -->
+        </div>
+        <!-- first row ends here -->
+
+        <!-- second row -->
+        <div class="row">
+            <div class="col-sm col-md text-center">
+                <img src="skills/bootstrap.png" alt="booststrapImage" ">
+                </div>
+                <div class=" col-sm col-md text-center">
+                <img src="skills/mongo.png" alt="expressImage">
+            </div>
+
+            <div class="col-sm col-md text-center">
+                <img src="skills/node.png" alt="nodeImage">
+            </div>
+        </div>
+        <!-- second row ends here -->
+    </section>
+
+    <!-- Section for current Weather  -->
+    <section id="weather" class="weather-section">
+        <h2 class="text-center pt-4">Weather Forecast</h2>
+        <div class="weatherInfo"></div>
+    </section>
+
+    <!-- Contact form Section -->
+    <section class="contact-section" id="contact">
+        <h3 class="text-center mt-3">CONTACT ME</h3>
+        <form class="container">
+            <!-- First Input form -->
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="email" placeholder="Name">
+            </div>
+            <!-- first Input form ends here -->
+
+            <!-- Second Input form -->
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="text" class="form-control" placeholder="Email Address">
+            </div>
+            <!-- Second Input form ends here -->
+
+            <!-- Third Input form -->
+            <div class="form-group">
+                <label for="number">Phone Number</label>
+                <input type="text" class="form-control" placeholder="Phone Number">
+            </div>
+
+            <!-- Fourth Input form ends here -->
+            <div class="form-group">
+                <label for="number">Messages</label>
+                <textarea class="form-control" name="" id="" cols="10" rows="4">Message</textarea>
+            </div>
+            <!-- Fourth Input form ends here -->
+            <input class="btn btn-dark" type="submit">
+        </form>
+    </section>
+    <!--  Conatact section ends-->
+
+    <!-- Footer -->
+    <section class="footer-section text-center">
+        <footer class="container d-flex justify-content-around pt-3">
+            <a href="https://www.linkedin.com/in/karma-drukpa-009607129/"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.freecodecamp.org/coderkarma"><i class="fab fa-free-code-camp"></i></a>
+            <a href="https://github.com/coderkarma"><i class="fab fa-github"></i></a>
+            <span class="backToTop"><a href="#portfolio">Back to Top</a></span>
+        </footer>
+    </section>
+
+
+    <!--  scripts for functionality -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+    <script src="JavaScript/scripts.js"></script>
+</body>
+
+</html>

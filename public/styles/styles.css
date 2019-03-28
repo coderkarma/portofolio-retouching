@@ -1,0 +1,112 @@
+/* layout  */
+/*  background color #fff */
+/* background image */
+.backgroundImage {
+  background-image: url('../images/background.jpeg');
+  width: 100vw;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Roboto;
+  background-attachment: fixed;
+}
+
+/* Customize CSS  */
+h1 {
+  padding-top: 6em;
+  font-size: 3em;
+  font-weight: 400;
+}
+
+/*  carousel cutomizaton  */
+.carousel-item {
+  width: 50%;
+  /* height: 10px; */
+  margin: auto 0;
+}
+
+.section-projects {
+  background-color: lightseagreen;
+  /* height: 100vh; */
+}
+
+#carouselIndicators > div > div:nth-child(3) {
+  margin: auto;
+}
+
+.lead {
+  /* width: 800px; */
+  margin: auto;
+}
+
+.testimonial {
+  height: 70vh;
+  font-size: 1em;
+  color: white;
+  padding: 2em;
+}
+
+.testimonial-section > h4 {
+  padding-top: 1em;
+  color: white;
+}
+
+#about > div > h4 {
+  padding: 6px;
+}
+
+#projects > h3 {
+  padding: 10px;
+}
+
+.testimonial-section {
+  /* background-image: url("../images/secondBackground.jpeg"); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #1a1a1a;
+}
+
+/* Border to image */
+.rounded-circle {
+  border: 1px solid gray;
+}
+
+/* Weather section  */
+.weather-section {
+  background: #1a1a1a;
+  width: 100vw;
+  height: 70vh;
+}
+
+.weather-section > h2 {
+  color: white;
+  font-size: 50px;
+}
+
+#weather > div > h6 {
+  color: white;
+  text-align: center;
+}
+
+/* contact section */
+.contact-section {
+  width: 100vw;
+  height: 88vh;
+}
+
+.footer-section {
+  background-color: #1a1a1a;
+  height: 80px;
+}
+.footer-section a {
+  font-size: 30px;
+}
+.backToTop {
+  color: white;
+}
+
+.carousel-item img {
+  width: 100%;
+}
