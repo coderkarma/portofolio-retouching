@@ -67,10 +67,16 @@
             </div>
             <h4 class="display-4 text-center">About</h4>
             <p class="lead fadeInRight animated">
-                Hi,I am Karma.I have always been fascinated by technology and computers.Fortunately got into
-                programming. Currently pursuing Web Development and Cybersecurity in Application. I am very
-                driven and passionate about technology. I love bringing innovation & creativity to the table. It
-                motivates and provides meaning to live life with a purpose to do something better for the community.
+                Hi, my name is Karma and I studied business in India at Sikkim University. I moved to California a few
+                years ago and discovered a passion for computers while working in the hospitality industry. I began
+                taking cybersecurity classes at Merritt College in Oakland and quickly realized the need for programming
+                skills and potential power of learning programming languages. I have always loved solving problems and
+                breaking things down. I have two years of customer support and cybersecurity experiences that I can
+                bring to the table. My willingness and passion for coding keeps me studying every day and learning more
+                about current relevant technologies. Furthermore, I have attended a full-stack web immersive program at
+                General Assembly in San Francisco where I built a full-stack web application and had an opportunity to
+                work within a team.
+
             </p>
         </div>
 
@@ -83,6 +89,8 @@
                 <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
                 <li data-target="#carouselIndicators" data-slide-to="1"></li>
                 <li data-target="#carouselIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselIndicators" data-slide-to="3"></li>
+                <!-- <li data-target="#carouselIndicators" data-slide-to="4"></li> -->
             </ol>
             <!--  Carousel inner  -->
             <div class="carousel-inner d-flex justify-content-center ">
@@ -102,6 +110,12 @@
                 <div class="carousel-item">
                     <a href="https://setpriority.netlify.com">
                         <img src="carousel/todo.png" class="d-block" alt="todoList">
+                    </a>
+                </div>
+                <!-- Fourth item  -->
+                <div class="carousel-item">
+                    <a href="http://nameless-crag-43595.herokuapp.com">
+                        <img src="carousel/osis.png" class="d-block" alt="osis">
                     </a>
                 </div>
             </div>
@@ -169,31 +183,31 @@
     <!-- Contact form Section -->
     <section class="contact-section" id="contact">
         <h3 class="text-center mt-3">CONTACT ME</h3>
-        <form class="container">
+        <form class="container"  action="mailto:karmadrukpa11@gmail.com" method="GET">
             <!-- First Input form -->
             <div class="form-group">
-                <label for="name">Name</label>
+                <label for="name" required>Name</label>
                 <input type="text" class="form-control" id="email" placeholder="Name">
             </div>
             <!-- first Input form ends here -->
 
             <!-- Second Input form -->
             <div class="form-group">
-                <label for="email">Email</label>
-                <input type="text" class="form-control" placeholder="Email Address">
+                <label for="email" required>Email</label>
+                <input type="email" class="form-control" placeholder="Email Address" required>
             </div>
             <!-- Second Input form ends here -->
 
             <!-- Third Input form -->
             <div class="form-group">
                 <label for="number">Phone Number</label>
-                <input type="text" class="form-control" placeholder="Phone Number">
+                <input type="number" class="form-control" placeholder="Phone Number" required>
             </div>
 
             <!-- Fourth Input form ends here -->
             <div class="form-group">
                 <label for="number">Messages</label>
-                <textarea class="form-control" name="" id="" cols="10" rows="4">Message</textarea>
+                <textarea class="form-control" name="" id="" cols="10" required rows="4">Message</textarea>
             </div>
             <!-- Fourth Input form ends here -->
             <input class="btn btn-dark" type="submit">
@@ -216,11 +230,11 @@
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"
         integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
-        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
-        crossorigin="anonymous"></script>
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous">
+    </script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
-        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
-        crossorigin="anonymous"></script>
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous">
+    </script>
     <script src="JavaScript/scripts.js"></script>
 </body>
 

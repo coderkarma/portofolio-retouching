@@ -1,6 +1,4 @@
-/* layout  */
-/*  background color #fff */
-/* background image */
+
 .backgroundImage {
   background-image: url('../images/background.jpeg');
   width: 100vw;
@@ -90,11 +88,6 @@ h1 {
   text-align: center;
 }
 
-/* contact section */
-.contact-section {
-  width: 100vw;
-  height: 88vh;
-}
 
 .footer-section {
   background-color: #1a1a1a;
@@ -109,4 +102,8 @@ h1 {
 
 .carousel-item img {
   width: 100%;
+}
+
+.temp {
+  font-size: 25px;
 }
