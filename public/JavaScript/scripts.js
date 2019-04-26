@@ -1,6 +1,6 @@
 // WelcomeText for h1
 let h1 = document.querySelector('.welcomeText');
-let text = 'I am Karma. A Web Developer';
+let text = 'I am Karma | Full Stack Developer';
 let speed = 70;
 
 let i = 0;
@@ -62,7 +62,6 @@ let loop = () => {
 loop();
 setInterval(loop, 3000);
 
-// from a lovely developer online - much coffee for him
 // Selects every <a> element whose href attribute value begins with "https"
 $("a[href^='#']").click(function(e) {
 	e.preventDefault();

@@ -1,4 +1,10 @@
-
+ 
+*{
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+ 
 .backgroundImage {
   background-image: url('../images/background.jpeg');
   width: 100vw;
@@ -10,6 +16,9 @@
   background-attachment: fixed;
 }
 
+#about {
+  padding-top: 2em;
+}
 /* Customize CSS  */
 h1 {
   padding-top: 6em;
@@ -34,7 +43,6 @@ h1 {
 }
 
 .lead {
-  /* width: 800px; */
   margin: auto;
 }
 
@@ -56,6 +64,10 @@ h1 {
 
 #projects > h3 {
   padding: 10px;
+ 
+}
+#projects {
+  padding-bottom: 5em;
 }
 
 .testimonial-section {
@@ -107,3 +119,5 @@ h1 {
 .temp {
   font-size: 25px;
 }
+
+/* Media queries */

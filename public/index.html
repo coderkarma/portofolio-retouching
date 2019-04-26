@@ -22,7 +22,7 @@
 
 <body>
     <!-- Navbar goes here -->
-    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <a class="navbar-brand" href="#portfolio">Portoflio</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -58,7 +58,7 @@
     </section>
 
     <!--  Jumbotron begins here.-->
-    <section id='about' class="section-about container ">
+    <section id='about' class="section-about container shadow-sm">
         <div class="jumbotron ">
             <div class="text-center">
                 <img id="profileImg" src="images/profile.JPG" alt="profile-photo"
@@ -98,7 +98,12 @@
                 <div class="carousel-item active">
                     <a href="https://omniifood.netlify.com/">
                         <img src="carousel/food.png" class="d-block" alt="foodPhoto">
+                       
                     </a>
+                    <div class="carousel-caption ">
+                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                      </div>
+            
                 </div>
                 <!-- second item of Carousel -->
                 <div class="carousel-item">
@@ -132,34 +137,36 @@
 
     <!-- Skill section-->
     <section id="skills" class="skills-section">
-        <h3 class="text-center display-4">Skills</h3>
-        <p class="text-center"> Tools I've learned and constantly learning</p>
+        <!-- <h3 class="text-center display-4">Skills</h3>
+        <p class="text-center"> Tools I've learned and constantly learning</p> -->
 
 
         <!-- First row starts here -->
-        <div class="row">
+        
+        <!-- <div class="row">
             <!-- First column starts here -->
-            <div class="col-sm col-md text-center">
+            <!-- <div class="col-sm col-md  text-center">
                 <img src="skills/html.png" alt="htmlPhoto">
-            </div>
+            </div> --> 
             <!-- Ends first column -->
 
             <!-- Second Column starts here -->
-            <div class="col-sm col-md text-center">
+            <!-- <div class="col-sm col-md text-center">
                 <img src="skills/react.png" alt="reactImage">
-            </div>
+            </div> -->
             <!-- Second column ends here -->
 
             <!-- Third Column starts here -->
-            <div class="col-sm col-md text-center">
+            <!-- <div class="col-sm col-md  text-center">
                 <img src="skills/js.png" alt="reactImage">
-            </div>
+            </div> -->
             <!-- third column ends here. -->
-        </div>
+        <!-- </div> -->
+        
         <!-- first row ends here -->
 
         <!-- second row -->
-        <div class="row">
+        <!-- <div class="row">
             <div class="col-sm col-md text-center">
                 <img src="skills/bootstrap.png" alt="booststrapImage" ">
                 </div>
@@ -167,10 +174,10 @@
                 <img src="skills/mongo.png" alt="expressImage">
             </div>
 
-            <div class="col-sm col-md text-center">
+            <div class="col-sm col-md  text-center">
                 <img src="skills/node.png" alt="nodeImage">
             </div>
-        </div>
+        </div> -->
         <!-- second row ends here -->
     </section>
 
@@ -207,7 +214,7 @@
             <!-- Fourth Input form ends here -->
             <div class="form-group">
                 <label for="number">Messages</label>
-                <textarea class="form-control" name="" id="" cols="10" required rows="4">Message</textarea>
+                <textarea class="form-control" name="" id="" cols="10" required rows="4"></textarea>
             </div>
             <!-- Fourth Input form ends here -->
             <input class="btn btn-dark" type="submit">
@@ -221,12 +228,12 @@
             <a href="https://www.linkedin.com/in/karma-drukpa-009607129/"><i class="fab fa-linkedin"></i></a>
             <a href="https://www.freecodecamp.org/coderkarma"><i class="fab fa-free-code-camp"></i></a>
             <a href="https://github.com/coderkarma"><i class="fab fa-github"></i></a>
-            <span class="backToTop"><a href="#portfolio">Back to Top</a></span>
+            <!-- <span class="backToTop"><a href="#portfolio">Back to Top</a></span> -->
         </footer>
     </section>
 
 
-    <!--  scripts for functionality -->
+    <!--  scripts  -->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"
         integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
