@@ -14,23 +14,20 @@ const typeWriter = () => {
 typeWriter();
 
 // Testimonial section
-let testimoniousText = [
-	{
+let testimoniousText = [{
 		img: 'images/paul.jpeg',
-		par:
-			'Karma is one of the most dedicated and focused developers I have met. He is always ready to learn something new and is great to pair program with.',
+		par: 'Karma is one of the most dedicated and focused developers I have met. He is always ready to learn something new and is great to pair program with.',
 		author: 'Paul'
 	},
 
 	{
 		img: 'images/poo.jpeg',
-		par:
-			'"Karma is a real stand-up guy, and a most dedicated and passion-filled, aspiring web developer. His ambition and self-less heart for the work keeps me inspired and allows me to remember the joy and excitement of being young. I am grateful for friendship, and look forward to the what Karma creates."',
+		par: '"Karma is a real stand-up guy, and a most dedicated and passion-filled, aspiring web developer. His ambition and self-less heart for the work keeps me inspired and allows me to remember the joy and excitement of being young. I am grateful for friendship, and look forward to the what Karma creates."',
 		author: 'Poo'
 	},
 	{
 		img: 'images/josh.jpeg',
-		par: 'Codes Everyday',
+		par: "Karma is a great person to work with. He is dedicated to learning and is always coding.",
 		author: 'Josh'
 	}
 ];
@@ -63,7 +60,7 @@ loop();
 setInterval(loop, 3000);
 
 // Selects every <a> element whose href attribute value begins with "https"
-$("a[href^='#']").click(function(e) {
+$("a[href^='#']").click(function (e) {
 	e.preventDefault();
 	//  Grabbing the attribute href offset value top. offSet is the number of pixel from the top
 	let position = $($(this).attr('href')).offset().top;
