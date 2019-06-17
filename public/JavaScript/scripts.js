@@ -29,6 +29,11 @@ let testimoniousText = [{
 		img: 'images/josh.jpeg',
 		par: "Karma is a great person to work with. He is dedicated to learning and is always coding.",
 		author: 'Josh'
+	},
+	{
+		img: 'images/roy.jpeg',
+		par: "Karma is serious about learning and understanding the fundamentals of the tools he is using, this makes him a developer who does not take things on face value as he strives to improve his knowledge and understanding.",
+		author: 'Roy'
 	}
 ];
 
@@ -73,38 +78,38 @@ $("a[href^='#']").click(function (e) {
 });
 
 // Weather update
-let weatherInfo = $('.weatherInfo');
-$(document).ready(e => {
-	let lat;
-	let lon;
-	let url;
-	let key = '303f8f961c655981bb7f245ce0486261';
-	navigator.geolocation.getCurrentPosition(position => {
-		lat = position.coords.latitude;
-		lon = position.coords.longitude;
+// let weatherInfo = $('.weatherInfo');
+// $(document).ready(e => {
+// 	let lat;
+// 	let lon;
+// 	let url;
+// 	let key = '303f8f961c655981bb7f245ce0486261';
+// 	navigator.geolocation.getCurrentPosition(position => {
+// 		lat = position.coords.latitude;
+// 		lon = position.coords.longitude;
 
-		url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&units=imperial&appid=${key}
-    `;
-		$.ajax({
-			method: 'GET',
-			url: url,
-			success: response => {
-				console.log(response.name, 'response');
-				printWeather(response);
-			},
-			error: err => {
-				console.log('err', err);
-			}
-		});
-	});
-});
+// 		url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&units=imperial&appid=${key}
+//     `;
+		// $.ajax({
+		// 	method: 'GET',
+		// 	url: url,
+		// 	success: response => {
+		// 		console.log(response.name, 'response');
+		// 		printWeather(response);
+		// 	},
+		// 	error: err => {
+		// 		console.log('err', err);
+		// 	}
+		// });
+// 	});
+// });
 
 // Print the weather
-function printWeather(weather) {
-	const temp = weather.main.temp;
-	const name = weather.name;
+// function printWeather(weather) {
+// 	const temp = weather.main.temp;
+// 	const name = weather.name;
 
-	weatherInfo.append(
-		`<h6 class="pt-2"> The Current Temperature is <span class="temp">${temp} </span> Fehrenheit in <span class="temp"> ${name}</span> </h6>`
-	);
-}
+// 	weatherInfo.append(
+// 		`<h6 class="pt-2"> The Current Temperature is <span class="temp">${temp} </span> Fehrenheit in <span class="temp"> ${name}</span> </h6>`
+// 	);
+// }

@@ -41,9 +41,9 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#skills">Skills</a>
                 </li>
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                     <a class="nav-link" href="#weather">Weather</a>
-                </li>
+                </li> -->
                 <li class="nav-item">
                     <a class="nav-link" href="#contact">Contact</a>
                 </li>
@@ -100,7 +100,8 @@
                     <img src="carousel/hiking-tracker.png" class="d-block" alt="hiking-tracker">
 
                     <div>
-                        <p class="fadeInRight animated">A Hiking Tracker is an app that is built with the idea to find a hiking trail based on
+                        <p class="fadeInRight animated">A Hiking Tracker is an app that is built with the idea to find a
+                            hiking trail based on
                             location. It was inspired by those beautiful hiking trails and folks who have a passion to
                             hike.
                         </p>
@@ -211,31 +212,32 @@
     <!-- Contact form Section -->
     <section class="contact-section" id="contact">
         <h3 class="text-center mt-3">CONTACT ME</h3>
-        <form class="container" action="mailto:karmadrukpa11@gmail.com" method="GET">
+        <form class="container" action="mailto:karmadrukpa11@gmail.com" method="POST" data-netlify="true">
             <!-- First Input form -->
-            <div class="form-group">
+            <!-- <div class="form-group">
                 <label for="name" required>Name</label>
-                <input type="text" class="form-control" id="email" placeholder="Name">
+                <input type="text" class="form-control" id="email" placeholder="Name" name="name">
+            </div> -->
+
+            <div class="form-row">
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="First name" id="firstname" required>
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Last name" required>
+                </div>
             </div>
-            <!-- first Input form ends here -->
 
             <!-- Second Input form -->
             <div class="form-group">
-                <label for="email" required>Email</label>
-                <input type="email" class="form-control" placeholder="Email Address" required>
+                <input type="email" class="form-control" placeholder="Email Address" name="email" required>
             </div>
-            <!-- Second Input form ends here -->
 
-            <!-- Third Input form -->
-            <div class="form-group">
-                <label for="number">Phone Number</label>
-                <input type="number" class="form-control" placeholder="Phone Number" required>
-            </div>
 
             <!-- Fourth Input form ends here -->
             <div class="form-group">
-                <label for="number">Messages</label>
-                <textarea class="form-control" name="" id="" cols="10" required rows="4"></textarea>
+                <textarea class="form-control" name="" id="" cols="10" required rows="4"
+                    placeholder="Message"></textarea>
             </div>
             <!-- Fourth Input form ends here -->
             <input class="btn btn-dark" type="submit">
@@ -249,7 +251,7 @@
             <a href="https://www.linkedin.com/in/karma-drukpa-009607129/"><i class="fab fa-linkedin"></i></a>
             <a href="https://www.freecodecamp.org/coderkarma"><i class="fab fa-free-code-camp"></i></a>
             <a href="https://github.com/coderkarma"><i class="fab fa-github"></i></a>
-            <!-- <span class="backToTop"><a href="#portfolio">Back to Top</a></span> -->
+
         </footer>
     </section>
 

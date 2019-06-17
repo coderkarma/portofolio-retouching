@@ -1,123 +1,124 @@
- 
-*{
-  overflow-x: hidden;
-  margin: 0;
-  padding: 0;
-}
- 
-.backgroundImage {
-  background-image: url('../images/background.jpeg');
-  width: 100vw;
-  height: 100vh;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  font-family: Roboto;
-  background-attachment: fixed;
-}
+ * {
+   overflow-x: hidden;
+   margin: 0;
+   padding: 0;
+ }
 
-#about {
-  padding-top: 2em;
-}
-/* Customize CSS  */
-h1 {
-  padding-top: 6em;
-  font-size: 3em;
-  font-weight: 400;
-}
+ .backgroundImage {
+   background-image: url('../images/background.jpeg');
+   width: 100vw;
+   height: 100vh;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   font-family: Roboto;
+   background-attachment: fixed;
+ }
 
-/*  carousel cutomizaton  */
-.carousel-item {
-  width: 50%;
-  /* height: 10px; */
-  margin: auto 0;
-}
+ #about {
+   padding-top: 2em;
+ }
 
-.section-projects {
-  background-color: lightseagreen;
-  /* height: 100vh; */
-}
+ #about>div>h4 {
+   padding: 6px;
+ }
 
-#carouselIndicators > div > div:nth-child(3) {
-  margin: auto;
-}
+ h1 {
+   padding-top: 6em;
+   font-size: 3em;
+   font-weight: 400;
+ }
 
-.lead {
-  margin: auto;
-}
+ .carousel-item {
+   width: 50%;
+   margin: auto 0;
+ }
 
-.testimonial {
-  height: 70vh;
-  font-size: 1em;
-  color: white;
-  padding: 2em;
-}
+ .section-projects {
+   background-color: lightseagreen;
+ }
 
-.testimonial-section > h4 {
-  padding-top: 1em;
-  color: white;
-}
+ #carouselIndicators>div>div:nth-child(3) {
+   margin: auto;
+ }
 
-#about > div > h4 {
-  padding: 6px;
-}
+ .lead {
+   margin: auto;
+ }
 
-#projects > h3 {
-  padding: 10px;
- 
-}
-#projects {
-  padding-bottom: 5em;
-}
+ .testimonial {
+   height: 70vh;
+   font-size: 1em;
+   color: white;
+   padding: 2em;
+ }
 
-.testimonial-section {
-  /* background-image: url("../images/secondBackground.jpeg"); */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: #1a1a1a;
-}
+ .testimonial-section>h4 {
+   padding-top: 1em;
+   color: white;
+ }
 
-/* Border to image */
-.rounded-circle {
-  border: 1px solid gray;
-}
+ #projects>h3 {
+   padding: 10px;
+ }
 
-/* Weather section  */
-.weather-section {
-  background: #1a1a1a;
-  width: 100vw;
-  height: 70vh;
-}
+ #projects {
+   padding-bottom: 5em;
+ }
 
-.weather-section > h2 {
-  color: white;
-  font-size: 50px;
-}
+ .testimonial-section {
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-color: #1a1a1a;
+ }
 
-#weather > div > h6 {
-  color: white;
-  text-align: center;
-}
+ #firstname {
+   margin-bottom: 1rem;
+ }
+
+ .rounded-circle {
+   border: 1px solid gray;
+ }
+
+ .weather-section {
+   background: #1a1a1a;
+   width: 100vw;
+   height: 70vh;
+ }
+
+ .weather-section>h2 {
+   color: white;
+   font-size: 50px;
+ }
+
+ #weather>div>h6 {
+   color: white;
+   text-align: center;
+ }
+
+ #contact {
+   margin-bottom: 1rem;
+ }
 
 
-.footer-section {
-  background-color: #1a1a1a;
-  height: 80px;
-}
-.footer-section a {
-  font-size: 30px;
-}
-.backToTop {
-  color: white;
-}
+ .footer-section {
+   background-color: #1a1a1a;
+   height: 80px;
+ }
 
-.carousel-item img {
-  width: 100%;
-}
+ .footer-section a {
+   font-size: 30px;
+ }
 
-.temp {
-  font-size: 25px;
-}
+ .backToTop {
+   color: white;
+ }
 
-/* Media queries */
+ .carousel-item img {
+   width: 100%;
+ }
+
+ .temp {
+   font-size: 25px;
+ }
