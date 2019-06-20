@@ -29,6 +29,12 @@
    font-weight: 400;
  }
 
+ h3 {
+   font-size: 3em;
+   font-weight: 300;
+   padding: .5em 0;
+ }
+
  .projects {
    margin: 1rem 0;
    background-color: white;
@@ -68,7 +74,7 @@
  }
 
  #projects {
-   padding: 5em 0;
+   padding: 1em 0;
    background: #FFF
  }
 
@@ -83,7 +89,7 @@
 
 
  .card:hover {
-   box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   box-shadow: 3px 10px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
  }
 
  .card img {
@@ -155,10 +161,51 @@
 
  /*  Media Queries */
 
- @media only screen and (max-width: 600px) {
-   body {
-     background-color: lightblue;
+ @media only screen and (max-width: 1000px) {
+
+   /* h1 {
+     padding-top: 4em;
+     font-weight: 400;
+     font-size: 2rem;
+   } */
+
+   .backgroundImage {
+     background-image: url('../images/background.jpeg');
+     width: 100vw;
+     height: 100vh;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     font-family: Roboto;
+     background-attachment: fixed;
    }
 
+
+   h3 {
+     font-size: 20px;
+
+   }
+
+   .lead {
+     font-size: 16px;
+   }
+
+   .display-4 {
+     font-size: 1.5rem;
+     line-height: 1.2;
+     margin: 14px;
+   }
+ }
+
+ /* form {
+     background-color: #292929;
+   } */
+ @media only screen and (min-width: 1000px) {
+   h1 {
+     padding-top: 6em;
+     font-size: 3em;
+     font-weight: 400;
+
+   }
 
  }
