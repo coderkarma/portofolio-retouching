@@ -197,6 +197,14 @@
    }
  }
 
+
+ i {
+   font-size: 25px;
+ }
+
+ i:hover {
+   color: red;
+ }
  /* form {
      background-color: #292929;
    } */
