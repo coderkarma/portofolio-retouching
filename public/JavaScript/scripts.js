@@ -1,6 +1,6 @@
 // WelcomeText for h1
 let h1 = document.querySelector('.welcomeText');
-let text = 'I am Karma | Full Stack Developer';
+let text = 'I am a Web Developer | Front End Focus';
 let speed = 70;
 
 let i = 0;
