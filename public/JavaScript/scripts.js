@@ -40,7 +40,7 @@ let testimoniousText = [{
 let interval = 4000;
 let increment = 1;
 
-let loop = () => {
+const loop = () => {
 	// Looping through an array of object
 	testimoniousText.forEach(ele => {
 		let appear = setTimeout(() => {
@@ -67,22 +67,20 @@ setInterval(loop, 3000);
 // Selects every <a> element whose href attribute value begins with "https"
 $("a[href^='#']").click(function (e) {
 	e.preventDefault();
-	//  Grabbing the attribute href offset value top. offSet is the number of pixel from the top
 	let position = $($(this).attr('href')).offset().top;
 
 	console.log('position', position);
 	$('body,html').animate({
-		// Position gives the position from the top in px
-		scrollTop: position - 50
-	});
+		scrollTop: position - 50,
+
+	}, 800);
 });
 
 // !Animation while scrolling to each section 
 // Function which adds the 'animated' class to any '.animatable' in view
-var doAnimations = function () {
-
+let doAnimations = function () {
 	// Calc current offset and get all animatables
-	var offset = $(window).scrollTop() + $(window).height(),
+	let offset = $(window).scrollTop() + $(window).height(),
 		$animatables = $('.animatable');
 
 	// Unbind scroll handler if we have no animatables
@@ -92,7 +90,7 @@ var doAnimations = function () {
 
 	// Check all animatables and animate them if necessary
 	$animatables.each(function (i) {
-		var $animatable = $(this);
+		let $animatable = $(this);
 		if (($animatable.offset().top + $animatable.height() - 20) < offset) {
 			$animatable.removeClass('animatable').addClass('animated');
 		}
