@@ -87,10 +87,8 @@ h3 {
 }
 
 .card:hover {
-	
-  border: 1px solid green;
-  transform: scale(1);
-  
+	border: 1px solid green;
+	transform: scale(1);
 }
 :last-child .card img {
 	object-fit: cover;
@@ -107,7 +105,12 @@ h3 {
 	/* background-color: #1a1a1a; */
 	background-color: #252934;
 }
+.testimonialText {
+	width: 50vw;
+	color: aqua;
+	margin: 0 auto;
 
+}
 #firstname {
 	margin-bottom: 1rem;
 }
