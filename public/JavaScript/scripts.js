@@ -54,7 +54,7 @@ const loop = () => {
                       <cite><p>${ele.author}</p> </cite>
                   </div>`;
 			// Appending card in empty container
-			$('.testimonial').append(card);
+			$('.testimonial').append(card).fadeIn();
 
 			clearTimeout(appear);
 		}, interval * increment);

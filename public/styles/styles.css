@@ -19,7 +19,7 @@
 	padding-top: 2em;
 }
 
-#about > div > h4 {
+#about>div>h4 {
 	padding: 6px;
 }
 
@@ -64,12 +64,12 @@ h3 {
 	padding: 2em;
 }
 
-.testimonial-section > h4 {
+.testimonial-section>h4 {
 	padding-top: 1em;
 	color: white;
 }
 
-#projects > h3 {
+#projects>h3 {
 	padding: 10px;
 }
 
@@ -90,6 +90,7 @@ h3 {
 	border: 1px solid green;
 	transform: scale(1);
 }
+
 :last-child .card img {
 	object-fit: cover;
 }
@@ -105,12 +106,15 @@ h3 {
 	/* background-color: #1a1a1a; */
 	background-color: #252934;
 }
+
 .testimonialText {
 	width: 50vw;
 	color: aqua;
 	margin: 0 auto;
 
+
 }
+
 #firstname {
 	margin-bottom: 1rem;
 }
@@ -215,5 +219,16 @@ i:hover {
 @media (min-width: 1200px) {
 	.form {
 		max-width: 920px;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	.testimonialText {
+		width: 100%;
+		color: aqua;
+		margin: 0 auto;
+		height: auto;
+		z-index: 1000;
+
 	}
 }
