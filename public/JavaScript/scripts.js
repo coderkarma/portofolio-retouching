@@ -1,6 +1,6 @@
 // WelcomeText for h1
 let h1 = document.querySelector('.welcomeText');
-let text = 'I am a Web Developer | Front End Focus';
+let text = 'I am a Front End Web Developer 🧑‍💻';
 let speed = 70;
 
 let i = 0;
@@ -44,7 +44,6 @@ const loop = () => {
 	// Looping through an array of object
 	testimoniousText.forEach(ele => {
 		let appear = setTimeout(() => {
-			console.log('trigger loop');
 			// Emptying out the test
 			$('.testimonial').empty();
 			// Inserting image, paragraph and author name dynamically
@@ -69,7 +68,6 @@ $("a[href^='#']").click(function (e) {
 	e.preventDefault();
 	let position = $($(this).attr('href')).offset().top;
 
-	console.log('position', position);
 	$('body,html').animate({
 		scrollTop: position - 50,
 
@@ -102,40 +100,3 @@ let doAnimations = function () {
 $(window).on('scroll', doAnimations);
 $(window).trigger('scroll');
 
-
-// Weather update
-// let weatherInfo = $('.weatherInfo');
-// $(document).ready(e => {
-// 	let lat;
-// 	let lon;
-// 	let url;
-// 	let key = '303f8f961c655981bb7f245ce0486261';
-// 	navigator.geolocation.getCurrentPosition(position => {
-// 		lat = position.coords.latitude;
-// 		lon = position.coords.longitude;
-
-// 		url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&units=imperial&appid=${key}
-//     `;
-// $.ajax({
-// 	method: 'GET',
-// 	url: url,
-// 	success: response => {
-// 		console.log(response.name, 'response');
-// 		printWeather(response);
-// 	},
-// 	error: err => {
-// 		console.log('err', err);
-// 	}
-// });
-// 	});
-// });
-
-// Print the weather
-// function printWeather(weather) {
-// 	const temp = weather.main.temp;
-// 	const name = weather.name;
-
-// 	weatherInfo.append(
-// 		`<h6 class="pt-2"> The Current Temperature is <span class="temp">${temp} </span> Fehrenheit in <span class="temp"> ${name}</span> </h6>`
-// 	);
-// }
