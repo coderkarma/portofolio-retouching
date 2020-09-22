@@ -1,6 +1,6 @@
 // WelcomeText for h1
 let h1 = document.querySelector('.welcomeText');
-let text = 'I am a Front End Web Developer 🧑‍💻';
+let text = "I'm Karma, a Front End Web Developer 🧑‍💻";
 let speed = 70;
 
 let i = 0;
@@ -14,27 +14,32 @@ const typeWriter = () => {
 typeWriter();
 
 // Testimonial section
-let testimoniousText = [{
+let testimoniousText = [
+	{
 		img: 'images/paul.jpeg',
-		par: 'Karma is one of the most dedicated and focused developers I have met. He is always ready to learn something new and is great to pair program with.',
-		author: 'Paul'
+		par:
+			'Karma is one of the most dedicated and focused developers I have met. He is always ready to learn something new and is great to pair program with.',
+		author: 'Paul',
 	},
 
 	{
 		img: 'images/poo.jpeg',
-		par: '"Karma is a real stand-up guy, and a most dedicated and passion-filled, aspiring web developer. His ambition and self-less heart for the work keeps me inspired and allows me to remember the joy and excitement of being young. I am grateful for friendship, and look forward to the what Karma creates."',
-		author: 'Poo'
+		par:
+			'"Karma is a real stand-up guy, and a most dedicated and passion-filled, aspiring web developer. His ambition and self-less heart for the work keeps me inspired and allows me to remember the joy and excitement of being young. I am grateful for friendship, and look forward to the what Karma creates."',
+		author: 'Poo',
 	},
 	{
 		img: 'images/josh.jpeg',
-		par: "Karma is a great person to work with. He is dedicated to learning and is always coding.",
-		author: 'Josh'
+		par:
+			'Karma is a great person to work with. He is dedicated to learning and is always coding.',
+		author: 'Josh',
 	},
 	{
 		img: 'images/roy.jpeg',
-		par: "Karma is serious about learning and understanding the fundamentals of the tools he is using, this makes him a developer who does not take things on face value as he strives to improve his knowledge and understanding.",
-		author: 'Roy'
-	}
+		par:
+			'Karma is serious about learning and understanding the fundamentals of the tools he is using, this makes him a developer who does not take things on face value as he strives to improve his knowledge and understanding.',
+		author: 'Roy',
+	},
 ];
 
 let interval = 4000;
@@ -42,7 +47,7 @@ let increment = 1;
 
 const loop = () => {
 	// Looping through an array of object
-	testimoniousText.forEach(ele => {
+	testimoniousText.forEach((ele) => {
 		let appear = setTimeout(() => {
 			// Emptying out the test
 			$('.testimonial').empty();
@@ -68,13 +73,15 @@ $("a[href^='#']").click(function (e) {
 	e.preventDefault();
 	let position = $($(this).attr('href')).offset().top;
 
-	$('body,html').animate({
-		scrollTop: position - 50,
-
-	}, 800);
+	$('body,html').animate(
+		{
+			scrollTop: position - 50,
+		},
+		800
+	);
 });
 
-// !Animation while scrolling to each section 
+// !Animation while scrolling to each section
 // Function which adds the 'animated' class to any '.animatable' in view
 let doAnimations = function () {
 	// Calc current offset and get all animatables
@@ -89,14 +96,12 @@ let doAnimations = function () {
 	// Check all animatables and animate them if necessary
 	$animatables.each(function (i) {
 		let $animatable = $(this);
-		if (($animatable.offset().top + $animatable.height() - 20) < offset) {
+		if ($animatable.offset().top + $animatable.height() - 20 < offset) {
 			$animatable.removeClass('animatable').addClass('animated');
 		}
 	});
-
 };
 
 // Hook doAnimations on scroll, and trigger a scroll
 $(window).on('scroll', doAnimations);
 $(window).trigger('scroll');
-
