@@ -80,7 +80,6 @@ h3 {
 }
 
 .card:hover {
-	border: 1px solid green;
 	transform: scale(1);
 }
 

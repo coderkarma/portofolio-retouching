@@ -1,6 +1,6 @@
 // WelcomeText for h1
 let h1 = document.querySelector('.welcomeText');
-let text = "I'm Karma, a Front End Web Developer 🧑‍💻";
+let text = " I'm Karma, a Front End Web Developer 🧑‍💻";
 let speed = 70;
 
 let i = 0;
