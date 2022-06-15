@@ -165,10 +165,12 @@ h3 {
 
 i {
 	font-size: 25px;
+	color: white;
 }
 
 i:hover {
 	color: red;
+	font-size: 30px;
 }
 
 /* form {
@@ -178,8 +180,10 @@ i:hover {
 @media only screen and (min-width: 500px) {
 	h1 {
 		padding-top: 6em;
-		font-size: 25px;
+		font-size: 18px;
+
 	}
+	
 }
 
 @media only screen and (min-width: 1000px) {
@@ -187,7 +191,10 @@ i:hover {
 		padding-top: 6em;
 		font-size: 3em;
 		font-weight: 400;
+		
 	}
+	
+	
 }
 
 @media (min-width: 1200px) {
@@ -204,4 +211,6 @@ i:hover {
 		height: auto;
 		z-index: 1000;
 	}
+	
+	
 }

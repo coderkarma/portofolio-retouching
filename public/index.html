@@ -1,506 +1,513 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
-		<meta
-			name="viewport"
-			content="width=device-width, initial-scale=1, shrink-to-fit=no"
-		/>
-		<link
-			rel="stylesheet"
-			href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-		/>
-		<link
-			rel="stylesheet"
-			href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-		/>
-		<link
-			href="https://fonts.googleapis.com/css?family=Roboto"
-			rel="stylesheet"
-		/>
-		<link rel="stylesheet" href="images/favicon.png" />
-		<link
-			href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap"
-			rel="stylesheet"
-		/>
-		<link
-			rel="stylesheet"
-			href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
-			integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
-			crossorigin="anonymous"
-		/>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        />
+        <link
+            href="https://fonts.googleapis.com/css?family=Roboto"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="images/favicon.png" />
+        <link
+            href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap"
+            rel="stylesheet"
+        />
 
-		<link rel="stylesheet" href="styles/styles.css" />
-		<link
-			rel="stylesheet"
-			href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css"
-		/>
-		<title>Portfolio</title>
-	</head>
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+            integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+            crossorigin="anonymous"
+        />
 
-	<body>
-		<!-- Navbar goes here -->
-		<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-			<a class="navbar-brand" href="#portfolio"
-				><i class="fas fa-home"></i
-			></a>
-			<button
-				class="navbar-toggler"
-				type="button"
-				data-toggle="collapse"
-				data-target="#navbarSupportedContent"
-				aria-controls="navbarSupportedContent"
-				aria-expanded="false"
-				aria-label="Toggle navigation"
-			>
-				<span class="navbar-toggler-icon"></span>
-			</button>
+        <link rel="stylesheet" href="styles/styles.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css"
+        />
+        <title>Portfolio</title>
+    </head>
 
-			<div class="collapse navbar-collapse" id="navbarSupportedContent">
-				<ul class="navbar-nav mr-auto">
-					<li class="nav-item">
-						<a class="nav-link" href="#about">About </a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#projects">Projects</a>
-					</li>
+    <body>
+        <!-- Navbar goes here -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <a class="navbar-brand" href="#portfolio"
+                ><i class="fas fa-home"></i
+            ></a>
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-					<li class="nav-item">
-						<a class="nav-link" href="#skills">Skills</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#testimonial">Testimonial</a>
-					</li>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
 
-					<li class="nav-item">
-						<a class="nav-link" href="#contact">Contact</a>
-					</li>
-				</ul>
-			</div>
-		</nav>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonial">Testimonial</a>
+                    </li>
 
-		<!-- navbar section ends here  -->
-		<section id="portfolio" class="backgroundImage lg-">
-			<h1 class="text-center welcomeText">Hello,</h1>
-		</section>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
 
-		<!--  Jumbotron begins here.-->
-		<section id="about" class="section-about container shadow-sm">
-			<div class="jumbotron">
-				<div class="text-center">
-					<img
-						id="profileImg"
-						src="images/profile.JPG"
-						alt="profile-photo"
-						class="rounded-circle bounce animated"
-					/>
-					<!-- animation to the image and pargraph -->
-				</div>
-				<h4 class="display-4 text-center">About</h4>
-				<p class="lead fadeInRight animated">
-					Hi, my name is Karma and I studied business in India at
-					Sikkim University. I moved to California a few years ago and
-					discovered a passion for computers while working in the
-					hospitality industry. I began taking cybersecurity classes
-					at Merritt College in Oakland and quickly realized the need
-					for programming skills and potential power of learning
-					programming languages. I have always loved solving problems
-					and breaking things down. I have two years of customer
-					support and cybersecurity experiences that I can bring to
-					the table. My willingness and passion for coding keeps me
-					studying every day and learning more about current relevant
-					technologies. Furthermore, I have attended a full-stack web
-					immersive program at General Assembly in San Francisco where
-					I built a full-stack web application and had an opportunity
-					to work within a team.
-				</p>
-			</div>
-		</section>
+        <!-- navbar section ends here  -->
+        <section id="portfolio" class="backgroundImage lg-">
+            <h1 class="text-center welcomeText">Hi,</h1>
+        </section>
 
-		<section class="projects" id="projects">
-			<div class="container">
-				<h4 class="my-4 text-center display-4">Projects</h4>
-				<div class="row">
-					<!-- first column starts here -->
-					<div class="col-lg-4 col-sm-6 mb-4">
-						<div class="card shadow">
-							<img
-								src="carousel/hiking-tracker.png"
-								class="card-img-top"
-								alt="Hiking tracker app"
-							/>
-							<div class="card-body text-center">
-								<p class="card-text">
-									A Hiking Tracker is an app that is built
-									with the idea to find a hiking trail based
-									on location. A Quick way to search hiking
-									trails near to your location
-								</p>
-								<a
-									href="https://github.com/coderkarma/hiking-tracker"
-									target="_blank"
-									><i class="fab fa-github"></i
-								></a>
-								<a href="https://hikingtrailsapp.herokuapp.com/"
-									><i class="fas fa-link" target="_blank"></i
-								></a>
-							</div>
-						</div>
-					</div>
-					<!-- frist col ends here -->
-					<!-- second column ends here -->
-					<div class="col-lg-4 col-sm-6 mb-4">
-						<div class="card shadow">
-							<img
-								src="carousel/osis.png"
-								class="card-img-top"
-								alt="Oasis web app"
-							/>
-							<div class="card-body text-center">
-								<p class="card-text">
-									Oasis is a travel community application
-									where users can share tips about their
-									favorite locations around the world.
-								</p>
-								<a
-									href="https://github.com/coderkarma/Wayfarer-FrontEnd"
-									target="_blank"
-									><i class="fab fa-github"></i
-								></a>
-								<a
-									href="https://nameless-crag-43595.herokuapp.com/"
-									target="_blank"
-									><i class="fas fa-link"></i
-								></a>
-							</div>
-						</div>
-					</div>
-					<!-- first row ends here -->
+        <!--  Jumbotron begins here.-->
+        <section id="about" class="section-about container shadow-sm">
+            <div class="jumbotron">
+                <div class="text-center">
+                    <img
+                        id="profileImg"
+                        src="images/profile.JPG"
+                        alt="profile-photo"
+                        class="rounded-circle bounce animated"
+                    />
+                    <!-- animation to the image and pargraph -->
+                </div>
+                <h4 class="display-4 text-center">About</h4>
+                <p class="lead fadeInRight animated">
+                    Hi, my name is Karma and I studied business in India at
+                    Sikkim University. I moved to California a few years ago and
+                    discovered a passion for computers while working in the
+                    hospitality industry. I began taking cybersecurity classes
+                    at Merritt College in Oakland and quickly realized the need
+                    for programming skills and potential power of learning
+                    programming languages. I have always loved solving problems
+                    and breaking things down. I have two years of customer
+                    support and cybersecurity experiences that I can bring to
+                    the table. My willingness and passion for coding keeps me
+                    studying every day and learning more about current relevant
+                    technologies. Furthermore, I have attended a full-stack web
+                    immersive program at General Assembly in San Francisco where
+                    I built a full-stack web application and had an opportunity
+                    to work within a team.
+                </p>
+            </div>
+        </section>
 
-					<!-- first column starts here -->
-					<div class="col-lg-4 col-sm-6 mb-4">
-						<div class="card shadow">
-							<img
-								src="carousel/plantswipe.png"
-								class="card-img-top"
-								alt="PlantSwipe web application"
-							/>
-							<div class="card-body text-center">
-								<p class="card-text">
-									A house-plant matching app. Users are
-									presented with a series of cards containing
-									names and images of popular house plant
-									species.
-								</p>
-								<a
-									href="https://github.com/coderkarma/PlantSwipe"
-									target="_blank"
-									><i class="fab fa-github"></i
-								></a>
-								<a
-									href="https://transplant-sql.herokuapp.com/"
-									target="_blank"
-									><i class="fas fa-link"></i
-								></a>
-							</div>
-						</div>
-					</div>
+        <section class="projects" id="projects">
+            <div class="container">
+                <h4 class="my-4 text-center display-4">Projects</h4>
+                <div class="row">
+                    <!-- first column starts here -->
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <div class="card shadow">
+                            <img
+                                src="carousel/hiking-tracker.png"
+                                class="card-img-top"
+                                alt="Hiking tracker app"
+                            />
+                            <div class="card-body text-center">
+                                <p class="card-text">
+                                    A Hiking Tracker is an app that is built
+                                    with the idea to find a hiking trail based
+                                    on location. A Quick way to search hiking
+                                    trails near to your location
+                                </p>
+                                <a
+                                    href="https://github.com/coderkarma/hiking-tracker"
+                                    target="_blank"
+                                    ><i class="fab fa-github"></i
+                                ></a>
+                                <a href="https://hikingtrailsapp.herokuapp.com/"
+                                    ><i class="fas fa-link" target="_blank"></i
+                                ></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- frist col ends here -->
+                    <!-- second column ends here -->
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <div class="card shadow">
+                            <img
+                                src="carousel/osis.png"
+                                class="card-img-top"
+                                alt="Oasis web app"
+                            />
+                            <div class="card-body text-center">
+                                <p class="card-text">
+                                    Oasis is a travel community application
+                                    where users can share tips about their
+                                    favorite locations around the world.
+                                </p>
+                                <a
+                                    href="https://github.com/coderkarma/Wayfarer-FrontEnd"
+                                    target="_blank"
+                                    ><i class="fab fa-github"></i
+                                ></a>
+                                <a
+                                    href="https://nameless-crag-43595.herokuapp.com/"
+                                    target="_blank"
+                                    ><i class="fas fa-link"></i
+                                ></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- first row ends here -->
 
-					<!-- seventh div -->
+                    <!-- first column starts here -->
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <div class="card shadow">
+                            <img
+                                src="carousel/plantswipe.png"
+                                class="card-img-top"
+                                alt="PlantSwipe web application"
+                            />
+                            <div class="card-body text-center">
+                                <p class="card-text">
+                                    A house-plant matching app. Users are
+                                    presented with a series of cards containing
+                                    names and images of popular house plant
+                                    species.
+                                </p>
+                                <a
+                                    href="https://github.com/coderkarma/PlantSwipe"
+                                    target="_blank"
+                                    ><i class="fab fa-github"></i
+                                ></a>
+                                <a
+                                    href="https://transplant-sql.herokuapp.com/"
+                                    target="_blank"
+                                    ><i class="fas fa-link"></i
+                                ></a>
+                            </div>
+                        </div>
+                    </div>
 
-					<div class="col-lg-4 col-sm-6 mb-4">
-						<div class="card shadow">
-							<img
-								src="carousel/invisawrap.png"
-								class="card-img-top"
-								alt="invisawrap"
-							/>
-							<div class="card-body text-center">
-								<p class="card-text">
-									InvisaWrap is a thin, flexible hooded poncho
-									that fits in a pocket-sized pouch.Unwrap,
-									shake it out, and let it settle over you to
-									disappear from view!
-								</p>
-								<a
-									class="card_icon"
-									href="https://github.com/coderkarma/invisiwrap"
-									target="_blank"
-									><i class="fab fa-github"></i
-								></a>
-								<a
-									class="card_icon"
-									href="https://invisivawrap.netlify.com/"
-									target="_blank"
-									><i class="fas fa-link"></i
-								></a>
-							</div>
-						</div>
-					</div>
+                    <!-- seventh div -->
 
-					<div class="col-lg-4 col-sm-6 mb-4">
-						<div class="card shadow">
-							<img
-								src="carousel/fitness.png"
-								class="card-img-top"
-								alt="fitnes app"
-							/>
-							<div class="card-body text-center">
-								<p class="card-text">
-									A single static fitness website that was
-									build with html, css grid
-								</p>
-								<a
-									class="card_icon"
-									href="https://github.com/coderkarma/HobbyPage"
-									target="_blank"
-									><i class="fab fa-github"></i
-								></a>
-								<a
-									class="card_icon"
-									href="https://fitnessnutrition.netlify.com"
-									target="_blank"
-									><i class="fas fa-link"></i
-								></a>
-							</div>
-						</div>
-					</div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <div class="card shadow">
+                            <img
+                                src="carousel/invisawrap.png"
+                                class="card-img-top"
+                                alt="invisawrap"
+                            />
+                            <div class="card-body text-center">
+                                <p class="card-text">
+                                    InvisaWrap is a thin, flexible hooded poncho
+                                    that fits in a pocket-sized pouch.Unwrap,
+                                    shake it out, and let it settle over you to
+                                    disappear from view!
+                                </p>
+                                <a
+                                    class="card_icon"
+                                    href="https://github.com/coderkarma/invisiwrap"
+                                    target="_blank"
+                                    ><i class="fab fa-github"></i
+                                ></a>
+                                <a
+                                    class="card_icon"
+                                    href="https://invisivawrap.netlify.com/"
+                                    target="_blank"
+                                    ><i class="fas fa-link"></i
+                                ></a>
+                            </div>
+                        </div>
+                    </div>
 
-					<!-- Moive search -->
-					<div class="col-lg-4 col-sm-6 mb-4">
-						<div class="card shadow">
-							<img
-								src="carousel/movie.png"
-								class="card-img-top"
-								alt="movie application"
-							/>
-							<div class="card-body text-center">
-								<p class="card-text">
-									A Movie Search is a React web application
-									where you could search the movies of
-									choices. Know what are the latest and
-									trending movie in the theater.
-								</p>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <div class="card shadow">
+                            <img
+                                src="carousel/fitness.png"
+                                class="card-img-top"
+                                alt="fitnes app"
+                            />
+                            <div class="card-body text-center">
+                                <p class="card-text">
+                                    A single static fitness website that was
+                                    build with html, css grid
+                                </p>
+                                <a
+                                    class="card_icon"
+                                    href="https://github.com/coderkarma/HobbyPage"
+                                    target="_blank"
+                                    ><i class="fab fa-github"></i
+                                ></a>
+                                <a
+                                    class="card_icon"
+                                    href="https://fitnessnutrition.netlify.com"
+                                    target="_blank"
+                                    ><i class="fas fa-link"></i
+                                ></a>
+                            </div>
+                        </div>
+                    </div>
 
-								<a
-									href="https://github.com/coderkarma/searchmovies"
-									><i
-										class="fab fa-github"
-										target="_blank"
-									></i
-								></a>
-								<a href="https://magic-movie.netlify.com/"
-									><i class="fas fa-link" target="_blank"></i
-								></a>
-							</div>
-						</div>
-					</div>
-					<!-- Library project -->
-					<div class="col-lg-4 col-sm-6 mb-4">
-						<div class="card shadow">
-							<img
-								src="carousel/library.png"
-								class="card-img-top"
-								alt="Book-shelf app"
-							/>
-							<div class="card-body text-center">
-								<p class="card-text">
-									A Book-shelf is a React web application that
-									provides best-selling books information .
-								</p>
+                    <!-- Moive search -->
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <div class="card shadow">
+                            <img
+                                src="carousel/movie.png"
+                                class="card-img-top"
+                                alt="movie application"
+                            />
+                            <div class="card-body text-center">
+                                <p class="card-text">
+                                    A Movie Search is a React web application
+                                    where you could search the movies of
+                                    choices. Know what are the latest and
+                                    trending movie in the theater.
+                                </p>
 
-								<a
-									href="https://emerging-lab-2019.herokuapp.com/"
-									><i class="fas fa-link" target="_blank"></i
-								></a>
-							</div>
-						</div>
-					</div>
+                                <a
+                                    href="https://github.com/coderkarma/searchmovies"
+                                    ><i
+                                        class="fab fa-github"
+                                        target="_blank"
+                                    ></i
+                                ></a>
+                                <a href="https://magic-movie.netlify.com/"
+                                    ><i class="fas fa-link" target="_blank"></i
+                                ></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Library project -->
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <div class="card shadow">
+                            <img
+                                src="carousel/library.png"
+                                class="card-img-top"
+                                alt="Book-shelf app"
+                            />
+                            <div class="card-body text-center">
+                                <p class="card-text">
+                                    A Book-shelf is a React web application that
+                                    provides best-selling books information .
+                                </p>
 
-					<!--  ends here -->
-					<div class="col-lg-4 col-sm-6 mb-4">
-						<div class="card shadow">
-							<img
-								src="carousel/react-colors.png"
-								class="card-img-top"
-								alt="react-color-palette"
-							/>
-							<div class="card-body text-center">
-								<p class="card-text">
-									A colorPalete that is built with React,
-									create, customize your favorite color
-									palette
-								</p>
-								<a
-									href="https://github.com/coderkarma/color-palettes"
-									><i
-										class="fab fa-github"
-										target="_blank"
-									></i
-								></a>
-								<a href="https://colorfulreact.netlify.app/"
-									><i class="fas fa-link" target="_blank"></i
-								></a>
-							</div>
-						</div>
-					</div>
-					<!--  -->
+                                <a
+                                    href="https://emerging-lab-2019.herokuapp.com/"
+                                    ><i class="fas fa-link" target="_blank"></i
+                                ></a>
+                            </div>
+                        </div>
+                    </div>
 
-					<!--  ends here -->
-					<div class="col-lg-4 col-sm-6 mb-4">
-						<div class="card shadow">
-							<img
-								src="carousel/covid.png"
-								class="card-img-top"
-								alt="covid-image"
-							/>
-							<div class="card-body text-center">
-								<p class="card-text">
-									A web application that is built with React,
-									that displays the covid data and graph.
-									<strong> Work in progress</strong>
-								</p>
-								<a href="https://github.com/coderkarma/covid-19"
-									><i
-										class="fab fa-github"
-										target="_blank"
-									></i
-								></a>
-							</div>
-						</div>
-					</div>
-					<!--  -->
-				</div>
-			</div>
-			<!-- Second row ends here -->
-		</section>
+                    <!--  ends here -->
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <div class="card shadow">
+                            <img
+                                src="carousel/react-colors.png"
+                                class="card-img-top"
+                                alt="react-color-palette"
+                            />
+                            <div class="card-body text-center">
+                                <p class="card-text">
+                                    A colorPalete that is built with React,
+                                    create, customize your favorite color
+                                    palette
+                                </p>
+                                <a
+                                    href="https://github.com/coderkarma/color-palettes"
+                                    ><i
+                                        class="fab fa-github"
+                                        target="_blank"
+                                    ></i
+                                ></a>
+                                <a href="https://colorfulreact.netlify.app/"
+                                    ><i class="fas fa-link" target="_blank"></i
+                                ></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--  -->
 
-		<!-- Testimonial Section -->
-		<section class="testimonial-section" id="testimonial">
-			<h4 class="display-4 text-center">Testimonial</h4>
-			<div class="testimonial text-center"></div>
-		</section>
+                    <!--  ends here -->
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <div class="card shadow">
+                            <img
+                                src="carousel/covid.png"
+                                class="card-img-top"
+                                alt="covid-image"
+                            />
+                            <div class="card-body text-center">
+                                <p class="card-text">
+                                    A web application that is built with React,
+                                    that displays the covid data and graph.
+                                    <strong> Work in progress</strong>
+                                </p>
+                                <a href="https://github.com/coderkarma/covid-19"
+                                    ><i
+                                        class="fab fa-github"
+                                        target="_blank"
+                                    ></i
+                                ></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--  -->
+                </div>
+            </div>
+            <!-- Second row ends here -->
+        </section>
 
-		<!-- Skill section-->
-		<section id="skills" class="skills-section">
-			<h3 class="text-center display-4">Skills</h3>
+        <!-- Testimonial Section -->
+        <section class="testimonial-section" id="testimonial">
+            <h4 class="display-4 text-center">Testimonial</h4>
+            <div class="testimonial text-center"></div>
+        </section>
 
-			<div class="jumbotron">
+        <!-- Skill section-->
+        <section id="skills" class="skills-section">
+            <h3 class="text-center display-4">Skills</h3>
+
+            <div class="jumbotron">
+                <p class="text-center fadeInRight animated">
+                    <strong> Salesforce Technologies </strong>- Workflow & Approval, Flow, Process Builder, Reports, Dashboards, Custom Objects, SOQL
+                </p>
 				<p class="text-center fadeInRight animated">
-					<strong>Languages </strong>- HTML, CSS, JavaScript, Python
-				</p>
-				<p class="text-center fadeInRight animated">
-					<strong>Frameworks and Libraries</strong> – React, Redux,
-					Angular, Gatsby, JQuery, Bootstrap, Material UI, Flask.
-					Peewee
-				</p>
-				<p class="text-center fadeInLeft animated">
-					<strong>Server-side</strong> – Node.js, Express, MongodDB,
-					Mongoose, PostgreSQL
-				</p>
-				<p class="text-center fadeInLeft animated">
-					<strong>Version Control and Workflow Management</strong> -
-					Git, GitHub, Trello, npm, AGILE
-				</p>
-			</div>
-		</section>
+                    <strong>Languages </strong>- HTML, CSS, JavaScript, Python
+                </p>
+                <p class="text-center fadeInRight animated">
+                    <strong>Frameworks and Libraries</strong> – React, Redux,
+                    Angular, Gatsby, JQuery, Bootstrap, Material UI, Flask.
+                    Peewee
+                </p>
+                <p class="text-center fadeInLeft animated">
+                    <strong>Server-side</strong> – Node.js, Express, MongodDB,
+                    Mongoose, PostgreSQL
+                </p>
+                <p class="text-center fadeInLeft animated">
+                    <strong>Version Control and Workflow Management</strong> -
+                    Git, GitHub, Trello, npm, AGILE
+                </p>
+            </div>
+        </section>
 
-		<!-- Contact form Section -->
-		<section class="contact-section" id="contact">
-			<h3 class="text-center mt-3">Get in touch!</h3>
+        <!-- Contact form Section -->
+        <section class="contact-section" id="contact">
+            <h3 class="text-center mt-3">Get in touch!</h3>
 
-			<form
-				class="container form"
-				action="POST"
-				data-netlify="true"
-				method="POST"
-			>
-				<div class="form-row">
-					<div class="col">
-						<input
-							type="text"
-							class="form-control"
-							placeholder="First name"
-							name="firstname"
-							id="firstname"
-							required
-						/>
-					</div>
-					<div class="col">
-						<input
-							type="text"
-							class="form-control"
-							placeholder="Last name"
-							name="lastname"
-							id="lastname"
-							required
-						/>
-					</div>
-				</div>
+            <form
+                class="container form"
+                action="POST"
+                data-netlify="true"
+                method="POST"
+            >
+                <div class="form-row">
+                    <div class="col">
+                        <input
+                            type="text"
+                            class="form-control"
+                            placeholder="First name"
+                            name="firstname"
+                            id="firstname"
+                            required
+                        />
+                    </div>
+                    <div class="col">
+                        <input
+                            type="text"
+                            class="form-control"
+                            placeholder="Last name"
+                            name="lastname"
+                            id="lastname"
+                            required
+                        />
+                    </div>
+                </div>
 
-				<!-- Second Input form -->
-				<div class="form-group">
-					<input
-						type="email"
-						class="form-control"
-						placeholder="Email Address"
-						name="email"
-						id="email"
-						required
-					/>
-				</div>
+                <!-- Second Input form -->
+                <div class="form-group">
+                    <input
+                        type="email"
+                        class="form-control"
+                        placeholder="Email Address"
+                        name="email"
+                        id="email"
+                        required
+                    />
+                </div>
 
-				<!-- Fourth Input form ends here -->
-				<div class="form-group">
-					<textarea
-						class="form-control"
-						name="message"
-						id="message"
-						cols="10"
-						required
-						rows="4"
-						placeholder="Message"
-					></textarea>
-				</div>
-				<!-- Fourth Input form ends here -->
-				<input class="btn btn-dark" type="submit" />
-			</form>
-		</section>
-		<!--  Conatact section ends-->
+                <!-- Fourth Input form ends here -->
+                <div class="form-group">
+                    <textarea
+                        class="form-control"
+                        name="message"
+                        id="message"
+                        cols="10"
+                        required
+                        rows="4"
+                        placeholder="Message"
+                    ></textarea>
+                </div>
+                <!-- Fourth Input form ends here -->
+                <input class="btn btn-dark" type="submit" />
+            </form>
+        </section>
+        <!--  Conatact section ends-->
 
-		<!-- Footer -->
-		<section class="footer-section text-center">
-			<footer class="container d-flex justify-content-around pt-3">
-				<a href="https://www.linkedin.com/in/karma-drukpa-009607129/"
-					><i class="fab fa-linkedin"></i
-				></a>
-				<a href="https://www.freecodecamp.org/coderkarma"
-					><i class="fab fa-free-code-camp"></i
-				></a>
-				<a href="https://github.com/coderkarma"
-					><i class="fab fa-github"></i
-				></a>
-			</footer>
-		</section>
+        <!-- Footer -->
+        <section class="footer-section text-center">
+            <footer class="container d-flex justify-content-around pt-3">
+                <a href="https://www.linkedin.com/in/karma-drukpa-009607129/"
+                    ><i class="fab fa-linkedin"></i
+                ></a>
+                <a href="https://www.freecodecamp.org/coderkarma"
+                    ><i class="fab fa-free-code-camp"></i
+                ></a>
+                <a href="https://github.com/coderkarma"
+                    ><i class="fab fa-github"></i
+                ></a>
+                <a href="https://trailblazer.me/id/coderkarma"
+                    ><i class="fab">Salesforce Profile</i>
+                </a>
+            </footer>
+        </section>
 
-		<!--  scripts  -->
-		<script
-			src="https://code.jquery.com/jquery-3.3.1.min.js"
-			integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-			crossorigin="anonymous"
-		></script>
-		<script
-			src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
-			integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
-			crossorigin="anonymous"
-		></script>
-		<script
-			src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
-			integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
-			crossorigin="anonymous"
-		></script>
-		<script src="JavaScript/scripts.js"></script>
-	</body>
+        <!--  scripts  -->
+        <script
+            src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+            integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+            integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+            crossorigin="anonymous"
+        ></script>
+        <script src="JavaScript/scripts.js"></script>
+    </body>
 </html>
