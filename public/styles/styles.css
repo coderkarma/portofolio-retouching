@@ -5,7 +5,7 @@
 }
 
 .backgroundImage {
-	background-image: url('../images/background.jpeg');
+	background-image: url('../images/background.jpg');
 	width: 100vw;
 	height: 100vh;
 	background-position: center;
@@ -30,9 +30,11 @@
 }
 
 h1 {
-	padding-top: 6em;
-	font-size: 3em;
+	/* padding-top: 8em; */
+	font-size: 5em;
 	font-weight: 400;
+	margin: auto;
+	color: #fff;
 }
 
 h3 {
@@ -118,7 +120,7 @@ h3 {
 }
 
 .footer-section {
-	background-color: #252934;
+	background-color: #65676b;
 	height: 80px;
 }
 
