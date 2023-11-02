@@ -1,6 +1,6 @@
 // WelcomeText for h1
 let h1 = document.querySelector('.welcomeText');
-let text = " I'm Karma, a Salesforce Certified Admin and Frontend Web Developer 🧑‍💻";
+let text = "Salesforce Certified Admin | Frontend Developer 🧑‍💻";
 let speed = 70;
 
 let i = 0;
