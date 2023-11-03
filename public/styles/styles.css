@@ -148,12 +148,12 @@ h3 {
 		background-image: url('../images/background.jpg');
 		width: 100vw;
 		height: 100vh;
-		/* background-position: center; */
-		 /* background-repeat: no-repeat;  */
+		 background-position: center;
+		 background-repeat: no-repeat; 
 		
-		object-fit: scale-down;
+	/* object-fit: scale-down; */
 
-		/* background-size: cover; */
+		background-size: cover; 
 		font-family: Roboto;
 		/* background-attachment: fixed; */
 	}
