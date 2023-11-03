@@ -36,7 +36,12 @@ h1 {
 	margin: auto;
 	color: #fff;
 }
-
+.text-center {
+	margin: 1em 0;
+}
+.text-center:hover{
+	color:red
+}
 h3 {
 	font-size: 3em;
 	font-weight: 300;
@@ -140,26 +145,32 @@ h3 {
 
 @media only screen and (max-width: 1000px) {
 	.backgroundImage {
-		background-image: url('../images/background.jpeg');
+		background-image: url('../images/background.jpg');
 		width: 100vw;
 		height: 100vh;
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: cover;
+		/* background-position: center; */
+		 /* background-repeat: no-repeat;  */
+		
+		object-fit: scale-down;
+
+		/* background-size: cover; */
 		font-family: Roboto;
-		background-attachment: fixed;
+		/* background-attachment: fixed; */
 	}
 
 	h3 {
 		font-size: 20px;
 	}
-
+    .welcomeText {
+		font-size: 50px;
+	    padding: 4.5em 1em 0 1em
+	}
 	.lead {
 		font-size: 16px;
 	}
 
 	.display-4 {
-		font-size: 1.5rem;
+		font-size: 1rem;
 		line-height: 1.2;
 		margin: 14px;
 	}
